@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+}
+body{
+    direction: ltr ;
+    font-family: 'Edu TAS Beginner', cursive;
+
+}
+/* /////////////////////////////////////////// */
+header{
+    border: 3px solid gray;
+    width: 90%;
+    margin: auto;
+    /* font-family: 'Edu TAS Beginner', cursive; */
+}
+.section-one > div{
+    border-radius: 10px;
+    background: -webkit-linear-gradient(#eee, #3333338c);
+    transition: 0.2s;
+}
+.section-one p {
+    text-align: justify;
+}
+.section-one > div:hover{
+    transform:scale(1.02) ;
+    border: 3px solid gray;
+}
+.section-two .card{
+    background: -webkit-linear-gradient(#eee 80%, #3333338c);
+    border: none;
+    border: 0.5px solid black;
+}
+.section-two .card span{
+    display: inline-block;
+    border-radius: 20px;
+}
+.section-two .card:hover span {
+    transform: scale(1.1);
+}
+.section-three{
+    /* border: 1px solid black; */
+    /* height: 200px; */
+}
+.section-three div:first-of-type{
+    border: 2px solid black;
+    font-size: 30px;
+    display: none;
+    
+}
+.zoza{
+    border: 2px solid black; 
+    display: none;
+    color: white;
+} 
+#btn1{
+    display: none;
+}
